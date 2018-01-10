@@ -7,8 +7,8 @@ $(document).on('click', '.trigger', function (event) {
 
 $("#modal-demo").iziModal({
     closeButton: true,
-    transitionInOverlay: 'fadeOutRight',
-    transitionOutOverlay: 'fadeOutRight',
+    transitionInOverlay: 'fadeOutDown',
+    transitionOutOverlay: 'fadeOutDown',
     transitionIn: 'fadeInDown',
     transitionOut: 'fadeOutDown',
     
