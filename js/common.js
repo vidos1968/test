@@ -5,6 +5,11 @@ $(document).on('click', '.trigger', function (event) {
     $('#modal-demo').iziModal('open');
 });
 
-
-
-$("#modal-demo").iziModal();
+$("#modal-demo").iziModal({
+    closeButton: true,
+    transitionInOverlay: 'fadeOutRight',
+    transitionOutOverlay: 'fadeOutRight',
+    transitionIn: 'fadeInDown',
+    transitionOut: 'fadeOutDown',
+    
+    });
