@@ -1,3 +1,3 @@
-#README#
-##Simple project training##
-###Simple project training###
+# README #
+## Simple project training ##
+### Simple project training ###
